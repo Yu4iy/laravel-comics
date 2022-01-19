@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 body {
   box-sizing: border-box;
-  background-color: teal;
+  background-color: transparent;
 }
 
 nav ul {
@@ -79,6 +79,39 @@ table {
   display: block;
   position: absolute;
   bottom: -1px;
+}
+
+.comics {
+  text-align: center;
+  background-color: #1C1C1C;
+  padding: 80px 0 30px 0;
+}
+.comics__items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.comics__item {
+  max-width: 180px;
+  margin: 0 10px 30px 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.comics__poster {
+  height: 180px;
+  overflow: hidden;
+}
+.comics__title {
+  color: #fff;
+  margin-top: 20px;
+}
+.comics__btn {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 50px;
+  background-color: #0182F9;
 }
 
 .footer {
