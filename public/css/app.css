@@ -1,0 +1,73 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: teal;
+}
+
+nav ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1212px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  height: 108px;
+  background-color: #fff;
+}
+.header .header__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.header .header__container .header__logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 65px;
+}
+.header .header__container .header__link {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #303030;
+  text-decoration: none;
+  margin-right: 40px;
+  height: 100%;
+  border-bottom: solid 3px transparent;
+}
+.header .header__container .header__link:last-child {
+  margin: 0;
+}
+.header .header__container .header__link-active {
+  color: #0182F9;
+  border-bottom: solid 3px #0182F9;
+}
