@@ -21,5 +21,4 @@
 		</ul>
 
 	</div>
-	@dump( Request::route()->getName())
 </header>

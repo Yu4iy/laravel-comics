@@ -40,10 +40,6 @@ table {
   padding: 0 10px;
 }
 
-.active {
-  color: red;
-}
-
 .header {
   height: 108px;
   background-color: #fff;
@@ -83,7 +79,7 @@ table {
   position: absolute;
   bottom: -45px;
 }
-.header .header__container ul:last-child {
+.header .header__container ul li:last-child {
   margin: 0;
 }
 
