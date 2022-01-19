@@ -1,0 +1,38 @@
+.footer{
+	background-color: $ft-color;
+	border-top: solid 17px  $brand-color;
+	padding: 30px 0;
+	.footer__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.sign-up a {
+		font-size: 17px;
+		text-transform: uppercase;
+		color: $w-color;
+		text-decoration: none;
+		padding: 15px 14px;
+		border: 2px solid $brand-color;
+	}
+	.social {
+		display: flex;
+		align-items: center;
+
+	
+			&__text {
+				margin-right: 25px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color:$brand-color;
+			}
+	
+			&__link {
+				margin-right: 15px;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+	}
+	
+}
