@@ -1,7 +1,9 @@
 
 @extends('layouts.layouts')
 
-@section('comics')
+@section('page-name', 'DC-SHOP')
+	
+@section('main-section')
 <section class="comics">
 	<div class="container">
 		<ul class="comics__items-list">

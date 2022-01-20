@@ -8,7 +8,7 @@
 			<div class="social__text">Folow Us</div>
 			
 			<a class="social__link" href="">
-				<img src="{{ asset('images/footer-facebook.png') }}" alt="">
+				<img src="{{ asset('images/footer-facebook.png') }}" alt=""> {{--<<<<<<<<<<<<<<<SI UTILIZA ASSET(per importare imagine) / --}}
 			</a>
 			<a class="social__link" href="">
 				<img src="{{ asset('images/footer-periscope.png') }}" alt="">
