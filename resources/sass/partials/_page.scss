@@ -6,10 +6,34 @@
 		min-height: 400px;
 		width: 100%;
 		border-bottom: 80px solid $brand-color;
-		img{
-			width: 190px;
-			height: 290px;
-			transform: translateY(180px);
+
+	}
+	&__poster{
+		position: relative;
+		width: 190px;
+		height: 290px;
+		border: 3px solid $w-color;
+		transform: translateY(170px);
+		a{
+			position: absolute;
+			bottom: -1px;
+			background: $lightblue-color;
+			color: $w-color;
+			text-transform: uppercase;
+			width: 100%;
+			padding: 4px 1px;
+			text-decoration: none;
+			text-align: center;
+		}
+		span{
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: $lightblue-color;
+			color: $w-color;
+			text-transform: uppercase;
+
+
 		}
 	}
 }

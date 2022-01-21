@@ -36,17 +36,17 @@ Route::get('/news', function () {
 
 // COMICS-PAGE
 Route::get('/comics/{id}', function ($id) {
-    $comics = config('comics-data');
+    $comics = config('comics-data'); //<<<<PORTA ARRAY DA config/comics-data.php
 
-    if( is_numeric($id) && $id >= 0 && $id < count($comics)){
+    if( is_numeric($id) && $id >= 0 && $id < count($comics)){  
         $comics_info = $comics[$id];
 
-    }else{
-        abort(404);
+    }else{       
+        abort(404); //SE NON TROVA FA RIDERECT ALLA PAGINA 404 
     }  
-
+                   //-(page)----DOVE VOGLIAMO RITORNARE, (comics_NAMEONBLADE) NOME DELLA VARIABLIE RITORNATA
     return view('page',[
-        'comics_info' => $comics_info,  
+        'comics_NAMEONBLADE' => $comics_info,  
     ]);
 })-> name('page');
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('page-name', 'DC')</title>
+         <title>@yield('page-name', 'DC')</title>  {{--<<<<TITOOLO CASTOMIZATO AL BASE DI PAGINA SPECIFICA --}}
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">

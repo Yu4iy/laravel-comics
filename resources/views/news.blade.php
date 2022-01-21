@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('page-name', 'DC-NEWS')
+@section('page-name', 'DC-NEWS') {{--<<<<TITOOLO CASTOMIZATO AL BASE DI PAGINA SPECIFICA --}}
 
 @section('main-section')
 	<div>
