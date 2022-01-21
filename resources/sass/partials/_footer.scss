@@ -2,10 +2,15 @@
 	background-color: $ft-color;
 	border-top: solid 17px  $brand-color;
 	padding: 30px 0;
+
 	.footer__container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		@media screen and (max-width: 542px) {
+			flex-direction: column;
+
+		}
 	}
 	.sign-up a {
 		font-size: 17px;
@@ -18,10 +23,15 @@
 		&:hover{
 			background-color: $brand-color;
 		}
+
 	}
 	.social {
 		display: flex;
 		align-items: center;
+		@media screen and (max-width: 632px) {
+			flex-direction: column;
+
+		}
 
 	
 			&__text {
@@ -29,10 +39,21 @@
 				font-weight: 700;
 				text-transform: uppercase;
 				color:$brand-color;
+				@media screen and (max-width: 632px) {
+					margin-right: 0;
+					margin-bottom: 10px;
+					
+				}
+				@media screen and (max-width: 542px) {
+					margin-top: 25px;
+		
+				}
 			}
 	
 			&__link {
 				margin-right: 15px;
+				text-decoration: none;
+
 				&:last-child{
 					margin-right: 0;
 				}

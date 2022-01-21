@@ -174,6 +174,11 @@ table {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 542px) {
+  .footer .footer__container {
+    flex-direction: column;
+  }
+}
 .footer .sign-up a {
   font-size: 17px;
   text-transform: uppercase;
@@ -190,14 +195,31 @@ table {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 632px) {
+  .footer .social {
+    flex-direction: column;
+  }
+}
 .footer .social__text {
   margin-right: 25px;
   font-weight: 700;
   text-transform: uppercase;
   color: #0182F9;
 }
+@media screen and (max-width: 632px) {
+  .footer .social__text {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 542px) {
+  .footer .social__text {
+    margin-top: 25px;
+  }
+}
 .footer .social__link {
   margin-right: 15px;
+  text-decoration: none;
 }
 .footer .social__link:last-child {
   margin-right: 0;
@@ -253,10 +275,21 @@ table {
 
 .page-info {
   display: flex;
-  padding: 120px 0;
+  padding: 120px 15px;
+}
+@media screen and (max-width: 840px) {
+  .page-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .page-info__items {
   margin-right: 40px;
+}
+@media screen and (max-width: 840px) {
+  .page-info__items {
+    margin-right: 0;
+  }
 }
 .page-info__title {
   font-size: 25px;
@@ -270,6 +303,7 @@ table {
   justify-content: space-between;
   border-bottom: 2px solid #459848;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 .page-info__text {
   line-height: 28px;
@@ -277,6 +311,12 @@ table {
 }
 .page-info__prom {
   position: relative;
+  justify-content: center;
+}
+@media screen and (max-width: 840px) {
+  .page-info__prom {
+    margin-top: 30px;
+  }
 }
 .page-info__prom span {
   text-transform: uppercase;
@@ -284,6 +324,12 @@ table {
   top: -20px;
   right: 0;
   color: #83797c;
+}
+@media screen and (max-width: 840px) {
+  .page-info__prom span {
+    top: -20px;
+    left: 0;
+  }
 }
 
 .info-bar__price {
@@ -296,6 +342,11 @@ table {
 }
 .info-bar__price span {
   color: #B2F582;
+}
+@media screen and (max-width: 500px) {
+  .info-bar__price span {
+    display: none;
+  }
 }
 .info-bar__modal {
   border-left: 2px solid #459848;
