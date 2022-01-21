@@ -237,15 +237,18 @@ table {
   width: 100%;
   padding: 4px 1px;
   text-decoration: none;
+  font-size: 14px;
   text-align: center;
 }
 .comics-page__poster span {
   position: absolute;
+  font-size: 14px;
   top: 0;
   left: 0;
   background: #02A8DA;
   color: #fff;
   text-transform: uppercase;
+  padding: 3px;
 }
 
 .page-info {
